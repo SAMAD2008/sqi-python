@@ -1,0 +1,34 @@
+{
+    "cSpell.words": [
+        "Abdussamad",
+        "Sulaiman",
+        "print()"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:python cass}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
+   "multiCommand.commands": [
+  {
+    "command": "multiCommand.insertParens",
+    "sequence": [
+      { "command": "type", "args": { "text": "()" } },
+      { "command": "cursorLeft" }
+    ]
+  },
+  {
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}
+]
+ 
+
+
+
+}

@@ -1,0 +1,40 @@
+{
+  "player": {
+    "name": "codex",
+    "level": 2,
+    "xp": 2,
+    "next_xp": 55,
+    "max_hp": 112,
+    "hp": 112,
+    "attack": 10,
+    "defense": 5,
+    "gold": 47,
+    "inventory": {
+      "potion": 1,
+      "rusty_sword": 1
+    },
+    "weapon": null,
+    "armor": null,
+    "flags": {
+      "cleared_(0, -1)": true
+    }
+  },
+  "pos": [
+    1,
+    0
+  ],
+  "seen": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ]
+  ]
+}
