@@ -54,9 +54,6 @@ elif option == 2:
 
 
 
-
-
-
 # Modify your quiz program to include more questions in the list. And instead of selecting questions randomly, update the program so that a user can choose which question number they want to answer. For example, if the user enters the number 3, the program should display the third question in the list for them to answer. (I suggest you copy the quiz code and modify it instead of touching the exact one we did in the class).
 from random import choice
 print("*******WELCOME TO QUIZ GAME********")
