@@ -26,9 +26,10 @@ for quote in quotes:
         is_word_count += 1
    
     for tag in tags:
-        tag_count[tag] = tag_count.get(tag, 0) + 1
+        tag_count[tag] = tag_count.get(tag, 0) + 1                                 
 
 print(f'Number of quotes containing the word "is": {is_word_count}')
+
 
 
 
