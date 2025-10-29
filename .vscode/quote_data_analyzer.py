@@ -15,9 +15,21 @@ if response.status_code == 200:
     quotes = soup.find_all('div', class_='quote')
     print(f'Total number of quotes: {len(quotes)}')
 
-unique_author_count = {}
-author_quote_count = {}
 is_word_count = 0
+tag_count = {}
+for quote in quotes:
+    text = quote.find('span', class_='text').get_text()
+    author = quote.find('small', class_='author').get_text()
+    tags = [tag.get_text() for tag in quote.find_all('a', class_='tag')]
+    
+    if 'is' in text.lower():
+        is_word_count += 1
+   
+    for tag in tags:
+        tag_count[tag] = tag_count.get(tag, 0) + 1
+
+print(f'Number of quotes containing the word "is": {is_word_count}')
+
 
 
 
