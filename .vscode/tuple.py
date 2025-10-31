@@ -39,3 +39,6 @@ print(f"The average of {numbers} is : {avg}")
 
 
 
+
+
+
